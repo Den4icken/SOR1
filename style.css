@@ -1,0 +1,92 @@
+.textcenter{
+    text-align: center;
+    padding-left: 100px;
+}
+.hugetext{
+    font-size: 6rem;
+}
+.w100{
+    width: 100%;
+}
+h1, h2{
+    margin: 0 0 15px 0;
+}
+.btn{
+    color: #1cab4e;
+    background-color: #000000;
+    text-decoration: none;
+    font-size: .875rem;
+    padding: 7px 30px 7px 30px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.btn:hover{
+    background-color: darkslategrey;
+}
+.hero{
+    height: 100vh;
+    display: flex;
+    background-color: #000000;
+    color: lightgreen;
+}
+.aboutme{
+    position: absolute;
+    width: 100%;
+    z-index: 3;
+    margin-top: -200px;
+    height: 100vh;
+    display: flex;
+    background-color: #31363F;
+    color: yellow;
+}
+.korobka{
+    padding: 0 150px 0 100px;
+    text-align: center;
+    width: 45%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body{
+    margin: 0;
+    color: #FCBAD3;
+}
+img{
+    width: 70%;
+    z-index: 2;
+}
+.me{
+    padding-left: 100px;
+}
+h1{
+    font-size: 100px;
+}
+.prizrak{
+    width: 120px;
+    position: absolute;
+    
+}
+.t300{
+    top: 300px;
+}
+.t400{
+    top: 400px;
+}
+.t500{
+    top: 500px;
+}
+.t600{
+    top: 600px;
+}
+.krug{
+    z-index: 1;
+    position: absolute;
+    height: 900px;
+    width: 900px;
+    top: 200px;
+    left: calc(50% + 150px);
+    border-radius: 100%;
+    background: rgb(168,216,234);
+    background: linear-gradient(90deg, rgba(168,216,234,1) 0%, rgba(170,150,218,1) 100%);
+}
